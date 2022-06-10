@@ -20,6 +20,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
+            "baseHref": "src/index.html",
             "outputPath": "dist/to-do-list",
             "index": "src/index.html",
             "main": "src/main.ts",
