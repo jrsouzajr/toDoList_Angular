@@ -1,0 +1,74 @@
+.header {
+    background: #000;
+    height: 90px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+
+.body-component {
+    display: flex;
+    flex-direction: column;
+    padding: 1% 7%;
+    background: #ddd;
+    height: 100%;
+}
+
+.input-config {
+    background: #eee;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 10px 30px;
+}
+
+.input-config-input-to-do {
+    flex-grow: 1;
+    margin-right: 25px;
+    min-width: 100px;
+}
+
+.list-items-to-do {
+    background: #f5f5f5;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.to-do-text {
+    padding: 10px 30px;
+    font-size: 18px;
+    color: #000;
+    display: flex;
+    align-items: center;
+    margin-right: 25px;
+    flex-grow: 30;
+}
+
+.actions-to-do {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 30px;
+    width: 140px;
+}
+
+.ngHolder-list-items{
+    margin: 30px 0px 0px 0px;
+}
+
+.icon-done-list-to-do {
+    display: flex;
+    align-items: center;
+    color: #aaa;
+}
+
+.line-through {
+    text-decoration: line-through;
+}
+
+.icon-done {
+    color: #32b736
+}
